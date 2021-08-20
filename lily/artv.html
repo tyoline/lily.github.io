@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lily's 作品集│網頁插畫</title>
+  <!--貓頭鷹輪播圖片owl carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <!-- 字型 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,300;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/artv.css">
+  <!-- fontawesome_Icons -->
+  <script src="https://kit.fontawesome.com/8c38702d0f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <div class="navbar">
+        <img src="images/logo.svg" alt="品設計logo,Lily作品集">
+        <h6 class="on">網&nbsp;頁&nbsp;插&nbsp;畫&nbsp;<i class="fa fa-caret-down"></i></h6>
+        <ul class="hide">
+          <li><a href="artg.html">平面設計</a></li>
+          <li><a href="arti.html">我的興趣</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <a class="icon" href="index.html" target="_blank"><i class="fas fa-home"></i></a>
+  </section>
+  <section>
+    <div class="container owl-carousel">
+      <img src="images/art/v/1.jpg" alt="電繪table切版">
+      <img src="images/art/v/2.jpg" alt="電繪奔跑吧!孩子">
+      <img src="images/art/v/3.jpg" alt="banner排版">
+      <img src="images/art/v/4.jpg" alt="電繪草莓大福衣服圖樣設計">
+      <img src="images/art/v/5.jpg" alt="電繪鋼鐵人主角">
+      <img src="images/art/v/6.jpg" alt="電繪基奴李維和張孝全 ">
+      <img src="images/art/v/7.jpg" alt="電繪飲料&餅乾包裝">
+      <img src="images/art/v/8.jpg" alt="電繪Q版人物for視頻用">
+    </div>
+  </section>
+  <!--JQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- 以下是JavaScript -->
+  <script>
+    $(document).ready(function () {
+      $(".on").click(function () {
+        $(".hide").toggle();
+      });
+      /貓頭鷹輪播控制器/
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        responsiveClass: true,
+        items: 1,
+        center: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+      });
+    });
+  </script>
+  <!--貓頭鷹輪播圖片owl carousel -->
+  <script src="js/owl.carousel.js"></script>
+</body>
+</html>

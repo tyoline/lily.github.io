@@ -1,0 +1,150 @@
+nav img {
+  display: inline-block;
+  margin-left: 15px;
+  width: 55px;
+  vertical-align: middle;
+}
+
+nav p {
+  display: inline-block;
+  color: #C0C0C0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@media (max-width: 767.9999999px) {
+  nav {
+    background-image: linear-gradient(to right, #000, #808080);
+    padding: 10px 0;
+  }
+
+  nav ul {
+    margin-left: 10px;
+  }
+
+  nav a {
+    display: block;
+    color: #C0C0C0;
+    text-decoration: none;
+    padding: 2px 0 2px 15px;
+    font-size: 0.9rem;
+  }
+
+  li.navitem {
+    width: 100%;
+    line-height: 55px;
+  }
+
+  nav li:hover>a,
+  nav li:focus>a {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #000, #575757);
+    height: 55px;
+  }
+
+  .dropdown {
+    background-color: #062b4e;
+    display: none;
+  }
+
+  .dropdown a {
+    padding-left: 60px;
+  }
+
+  .dropdown a:hover {
+    color: #eee;
+    background-image: linear-gradient(to right, #0250c5 0%, #e07baf77 100%);
+  }
+
+  li:hover>ul {
+    display: block;
+  }
+
+  input {
+    display: none;
+  }
+
+  label {
+    color: #eee;
+    font-size: larger;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+
+  label:hover {
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  ul.bar {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 1.5s;
+  }
+
+  input:checked+ul {
+    max-height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    background-image: linear-gradient(to right, #000, #808080);
+  }
+
+  ul.bar,
+  .bar>li {
+    display: inline-block;
+  }
+
+  nav ul {
+    margin-left: 10px;
+  }
+
+  nav a {
+    display: block;
+    color: #C0C0C0;
+    text-decoration: none;
+  }
+
+  li.navitem {
+    width: 160px;
+    text-align: center;
+    line-height: 55px;
+  }
+
+  nav li:hover>a,
+  nav li:focus>a {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #000, #575757);
+    height: 55px;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 55px;
+    width: 180px;
+    text-align: center;
+    background-color: #0a4379;
+    box-shadow: 5px 5px 10px rgb(49, 51, 53);
+    display: none;
+  }
+
+  .dropdown li:hover>a {
+    color: #eee;
+    background-image: linear-gradient(to right, #0250c5 0%, #e07baf77 100%);
+  }
+
+  li:hover>ul {
+    display: block;
+  }
+
+  input {
+    display: none;
+  }
+
+  label {
+    display: none;
+  }
+}

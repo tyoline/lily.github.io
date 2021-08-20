@@ -1,0 +1,196 @@
+@media (max-width: 767.9999999px) {
+  nav {
+    background-image: linear-gradient(to right, #000, #808080);
+    padding: 10px;
+  }
+
+  .logo::after {
+    content: "Lily's 平面│網頁作品集";
+    color: #C0C0C0;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  nav img {
+    margin-left: 5px;
+    height: 55px;
+    vertical-align: middle;
+  }
+
+  .navbar {
+    background-image: linear-gradient(to right, #000, #808080);
+  }
+
+  nav a {
+    display: block;
+    color: #C0C0C0;
+    text-decoration: none;
+    line-height: 55px;
+    padding: 2px 0 2px 15px;
+    font-size: 0.9rem;
+  }
+
+  nav a:link {
+    color: #C0C0C0;
+  }
+
+  nav li:hover>a,
+  nav a:focus {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #000, #575757);
+  }
+
+  .dropdown a {
+    padding-left: 60px;
+  }
+
+  .dropdown li:hover>a {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #0250c5 0%, #e07baf77 100%);
+    padding-left: 60px;
+  }
+
+  .navbar ul {
+    background-color: #062b4e;
+    display: none;
+  }
+
+  .navbar li:hover ul {
+    display: block;
+  }
+
+  .logo {
+    position: relative;
+  }
+
+  label {
+    display: block;
+    color: #eee;
+    font-size: larger;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+
+  label:hover {
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .navbar {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 1.5s;
+  }
+
+  #three:checked+div .navbar {
+    max-height: 500px;
+  }
+
+  input {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    background-image: linear-gradient(to right, #000, #808080);
+    height: 55px;
+    margin: auto;
+    display: float;
+  }
+
+  .logo {
+    float: left;
+    background-image: linear-gradient(to right, #000, #d4abc08f 100%);
+  }
+
+  .rotate {
+    animation: rotate 5s linear;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotateX(0deg) rotateZ(0deg);
+    }
+
+    50% {
+      transform: rotateX(40deg) rotateZ(180deg);
+    }
+
+    100% {
+      transform: rotateX(0deg) rotateZ(360deg);
+    }
+  }
+
+  .logo img {
+    display: block;
+    height: 55px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .meun {
+    float: left;
+    width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li.navitem {
+    width: 160px;
+    text-align: center;
+    flex-shrink: 1;
+  }
+
+  nav a {
+    display: block;
+    color: #C0C0C0;
+    text-decoration: none;
+    line-height: 55px;
+  }
+
+  nav a:link {
+    color: #C0C0C0;
+  }
+
+  nav li:hover>a,
+  nav li:focus>a {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #000, #575757);
+    height: 55px;
+  }
+
+  .dropdown li:hover>a {
+    color: #eee;
+    background-image: linear-gradient(to right, #0250c5 0%, #e07baf77 100%);
+  }
+
+  .navbar li {
+    position: relative;
+  }
+
+  .navbar ul {
+    position: absolute;
+    top: 55px;
+    width: 180px;
+    text-align: center;
+    background-color: #0a4379;
+    box-shadow: 5px 5px 10px rgb(49, 51, 53);
+    display: none;
+  }
+
+  .navbar li:hover ul {
+    display: block;
+  }
+
+  label,
+  input {
+    display: none;
+  }
+
+}
