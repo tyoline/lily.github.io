@@ -8,7 +8,7 @@ nav img {
 nav p {
   display: inline-block;
   color: #C0C0C0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -27,7 +27,7 @@ nav p {
     color: #C0C0C0;
     text-decoration: none;
     padding: 2px 0 2px 15px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   li.navitem {
