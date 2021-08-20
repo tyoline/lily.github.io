@@ -200,7 +200,8 @@ section .itemtittle2 {
      opacity: 0.8;
    }
 
-   footer a:hover{
+   footer a:hover,
+  footer a:visited{
     color: #ffffff;
     }
 
