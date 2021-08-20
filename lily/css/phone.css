@@ -147,6 +147,7 @@ section .itemtittle2 {
   .gallery{
     border: 1px solid rgb(138, 136, 136);;
     margin: 12px;
+    position: relative;
   }
   
   .gallery img:hover{
@@ -189,7 +190,7 @@ section .itemtittle2 {
     color: #C0C0C0;
     text-align: center;
     height: 200px;
-    font-size: 0.9rem;    
+    font-size: 1.2rem;    
    }
 
    footer .endlogo{
