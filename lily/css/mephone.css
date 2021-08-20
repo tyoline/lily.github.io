@@ -63,7 +63,7 @@
     color: #C0C0C0;
     padding-top: 10px;
     padding-left: 30px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   h5::before {
@@ -90,7 +90,7 @@
     color: #C0C0C0;
     margin: 0 20px;
     letter-spacing: 1.5px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .skill {
@@ -135,7 +135,7 @@
     color: #C0C0C0;
     text-align: center;
     height: 220px;
-    font-size: 0.9rem;
+    font-size:1.2rem;
   }
 
   footer .endlogo {
