@@ -63,7 +63,7 @@
 
   .banner {
     background-color: rgba(0, 0, 0, 0.877);
-    background-image: url("/images/banner.png");
+    background-image: url("https://tyoline.github.io/lily.github.io/lily/images/banner.png");
     background-size: cover;
     background-position: -20px -20px;
     background-repeat: no-repeat;
