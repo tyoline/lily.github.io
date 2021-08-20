@@ -147,4 +147,7 @@ nav p {
   label {
     display: none;
   }
+  
+    .dropdown a{
+ font-size: 0.9rem;}
 }
