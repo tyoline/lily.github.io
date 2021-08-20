@@ -143,7 +143,9 @@
     width: 50px;
     opacity: 0.8;
   }
-
+   footer .end a {
+    color: #C0C0C0;
+   }
   footer a:hover,
   footer a:visited {
     color: #ffffff;
