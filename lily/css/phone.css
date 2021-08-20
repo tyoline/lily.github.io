@@ -191,6 +191,7 @@ section .itemtittle2 {
     color: #C0C0C0;
     text-align: center;
     height:auto;
+    padding-bottom: 35px;
     font-size: 1.2rem;    
    }
 
