@@ -116,7 +116,7 @@
   section h5, .item1-right p {   
     padding:15px 5px;
     letter-spacing: 1.5px;
-    font-size: 0.9rem ;
+    font-size: 1.2rem ;
   }
 
   section h5::before
@@ -176,7 +176,8 @@ section .itemtittle2 {
   .gallery h5{   
     writing-mode: vertical-lr;    
     position: absolute;
-    top:90px;   
+    top:90px; 
+    left: 0px;
     background-color: #000000; 
     padding-bottom: 20px; 
   }
