@@ -190,7 +190,7 @@ section .itemtittle2 {
     background:black;
     color: #C0C0C0;
     text-align: center;
-    height: 200px;
+    height:auto;
     font-size: 1.2rem;    
    }
 
