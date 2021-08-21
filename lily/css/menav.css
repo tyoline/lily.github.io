@@ -11,7 +11,7 @@ nav p {
   font-weight: bold;
 }
 
-@media (max-width: 767.9999999px) {
+@media (max-width: 768px) {
   nav {
     background-image: linear-gradient(to right, #000, #808080);
     padding: 10px 0;
@@ -89,7 +89,7 @@ nav p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   nav {
     background-image: linear-gradient(to right, #000, #808080);
   }
