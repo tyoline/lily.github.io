@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   nav {
     background-image: linear-gradient(to right, #000, #808080);
-    padding: 10px;
+    padding: 10px 0;
   }
 
   .logo::after {
@@ -12,7 +12,7 @@
   }
 
   nav img {
-    margin-left: 5px;
+    margin-left: 15px;
     height: 55px;
     vertical-align: middle;
   }
@@ -20,7 +20,11 @@
   .navbar {
     background-image: linear-gradient(to right, #000, #808080);
   }
-
+  
+  nav ul {
+    margin-left: 10px;
+  }
+  
   nav a {
     display: block;
     color: #C0C0C0;
